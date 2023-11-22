@@ -1,0 +1,28 @@
+/* 
+File: style-testing.css
+Author: Tyler Maxwell
+Created: 11/21/2023
+Description: CSS styles for redesign of the home page.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.expand-container {
+    width: 50vw; /* Initial width of the container */
+    height: auto;/* Initial height of the container */
+    transition: width 0.3s, height 0.3s; /* Smooth transition for width and height changes */
+    object-fit: cover;
+}
+
+.expand-container:hover {
+    width: 60vw; /* Expanded width on hover */
+    height: 20vh; /* Expanded height on hover */
+}
+
+.expand-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
